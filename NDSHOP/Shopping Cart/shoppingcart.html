@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Footer-Header/footer_header.css" />
+    <link rel="stylesheet" href="./shoppingcart.css" />
+    <title>Footer-Header</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header>
+        <div class="logo">
+          <a href="../Home/home.html">
+            <img src="../Logo/NDShop.png" alt="logo" />
+          </a>
+        </div>
+        <nav>
+          <div class="nav_menu">
+            <ul>
+              <li class="nav_menu_shop">
+                <a href="../Shop/shop.html">Shop</a>
+              </li>
+              <li><a href="../Blog/blog.html">Blog</a></li>
+              <li><a href="../Our Story/ourstory.html">Our Story</a></li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <div class="nav_icon">
+            <div class="search">
+              <img src="../Icon/search.png" alt="icon" />
+            </div>
+            <div class="heart">
+              <a href="../Heart/heart.html">
+                <img src="../Icon/heart.png" alt="icon" />
+              </a>
+            </div>
+            <div class="cart">
+              <img src="../Icon/cartshopping.png" alt="icon" />
+            </div>
+            <div class="user">
+              <a href="../User/user.html">
+                <img src="../Icon/user.png" alt="icon" />
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- main -->
+      <main>
+        <h1>Shopping Cart</h1>
+        <div>
+          <div class="cart">
+            <div class="cart_header">
+              <img src="../images/cart1.png" alt="img" />
+              <div>
+                <h3>Lira Earrings</h3>
+                <p>Black / Medium</p>
+                <p class="price">$20,00</p>
+              </div>
+              <div class="btn_cart">
+                <button>-</button>
+                <input type="text" min="0" placeholder="3" />
+                <button>+</button>
+              </div>
+              <div class="close">x</div>
+            </div>
+            <hr />
+            <div class="cart_header">
+              <img src="../images/cart2.png" alt="img" />
+              <div>
+                <h3>Lira Earrings</h3>
+                <p>Black / Medium</p>
+                <p class="price">$20,00</p>
+              </div>
+              <div class="btn_cart">
+                <button>-</button>
+                <input type="text" min="0" placeholder="3" />
+                <button>+</button>
+              </div>
+              <div class="close">x</div>
+            </div>
+            <hr />
+            <div class="cart_header">
+              <img src="../images/cart3.png" alt="img" />
+              <div>
+                <h3>Lira Earrings</h3>
+                <p>Black / Medium</p>
+                <p class="price">$20,00</p>
+              </div>
+              <div class="btn_cart">
+                <button>-</button>
+                <input type="text" min="0" placeholder="3" />
+                <button>+</button>
+              </div>
+              <div class="close">x</div>
+            </div>
+            <hr />
+            <div class="coupon">
+              <button class="update">UPDATE CART</button>
+              <label for="code">
+                <input type="text" placeholder="Coupon Code" />
+                <input type="submit" value="APPLY COUPON" />
+              </label>
+            </div>
+          </div>
+          <div class="checkout">
+            <table>
+              <tr>
+                <td colspan="2"><h2>Cart totals</h2></td>
+              </tr>
+              <tr>
+                <td>SUBTOTAL</td>
+                <td>$ 65,00</td>
+              </tr>
+              <tr>
+                <td class="title">SHIPPING</td>
+                <td>
+                  Shipping costs will be calculated once you have provided
+                  address.
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class="shipping">
+                  <h3>CALCULATE SHIPPING</h3>
+                  <input type="text" placeholder="SELECT A COUNTRY" />
+                  <input type="text" placeholder="CITY" />
+                  <input type="text" placeholder="POST CODE / ZIP" />
+                  <input type="submit" value="UPDATE TOTALS" />
+                </td>
+              </tr>
+
+              <tr class="totals">
+                <td><b> TOTAlS </b></td>
+                <td align="right"><b>$ 87,00</b></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <button>PROCEED TO CHECKOUT</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </main>
+      <!-- footer -->
+      <footer>
+        <div class="contact">
+          <ul>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">TERMS OF SERVICES</a></li>
+            <li><a href="#">SHIPPING AND RETURNS</a></li>
+          </ul>
+          <div>
+            <span>&copy; 2023 NgocDuc.</span> Terms of use
+            <span>and</span> privacy policy.
+          </div>
+        </div>
+        <div class="policy">
+          <div>
+            <span>Give an email, get the newsletter.</span>
+            <input type="email" name="email" id="email" />
+            <img src="../Icon/arrow.png" alt="icon" class="arrow" />
+          </div>
+          <div class="footer_icon">
+            <a href="#">
+              <img src="../Icon/in.png" alt="icon" />
+            </a>
+            <a href="#">
+              <img src="../Icon/fc.png" alt="icon" />
+            </a>
+            <a href="#">
+              <img src="../Icon/ista.png" alt="icon" />
+            </a>
+            <a href="#">
+              <img src="../Icon/twitterer.png" alt="icon" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

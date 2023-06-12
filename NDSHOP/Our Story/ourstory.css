@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 64px 96px 90px 96px;
+  max-width: 1440px;
+  width: 1440px;
+}
+/* header */
+
+.nav_menu ul li:hover,
+.nav_icon img:hover {
+  transform: scale(1.1);
+  margin-bottom: 6px;
+}
+.nav_menu_ourstory {
+  position: relative;
+}
+.nav_menu_ourstory::before {
+  content: "";
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  top: 42px;
+  background-color: #707070;
+}
+
+/* main */
+main {
+  margin: 96px auto;
+  width: 672px;
+}
+main div:first-child {
+  text-align: center;
+}
+main div h1 {
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 43px;
+  margin-bottom: 24px;
+}
+main div p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 46px;
+  line-height: 26px;
+}
+main > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 670px;
+}
+main h2 {
+  margin: 39px 0 23px 0;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+}
+main img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 48px;
+}
+main ul {
+  margin-left: 40px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+/* footer */
